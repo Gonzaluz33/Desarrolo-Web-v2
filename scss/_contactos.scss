@@ -1,0 +1,9 @@
+#banner_contactos {
+    background-image: url('../img/bg-banner-contactos.webp');
+    height: 200px;
+    background-size: cover;
+}
+
+#banner_contactos-text {
+    @extend #banner_disenos-text;
+}

@@ -1,0 +1,17 @@
+#banner_nosotros {
+    background-image: url('../img/bg-nosotros1.webp');
+    background-color: rgb(115, 68, 29);
+    height: 200px;
+    background-size: cover;
+}
+
+#banner_nosotros-text {
+    @extend #banner_disenos-text;
+    color: #ffffff;
+}
+
+#nosotros_secRow {
+    h3 {
+        text-align: center;
+    }
+}
